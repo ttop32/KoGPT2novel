@@ -8,10 +8,10 @@ web demo:
 
 
 # Required environment to run    
-pip install torch==1.7.1+cu110  
-pip install fastai==2.4 
-pip install transformers==4.10.2  
-pip install BentoML==0.13.1  
+pip install torch==1.7.1+cu110   
+pip install fastai==2.4   
+pip install transformers==4.10.2    
+pip install BentoML==0.13.1    
 
 # Use in transformers
 ```python
