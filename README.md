@@ -20,7 +20,10 @@ tokenizer = AutoTokenizer.from_pretrained("ttop324/kogpt2novel")
 model = AutoModelWithLMHead.from_pretrained("ttop324/kogpt2novel")
 
 inputs = tokenizer.encode("안녕", return_tensors="pt")
-output = model.generate(inputs, repetition_penalty=2.0,)
+output = model.generate(inputs, 
+                        repetition_penalty=2.0, 
+                        max_length=128,
+                        use_cache=True)
 output = tokenizer.decode(output[0])
 print(output)
 ```
