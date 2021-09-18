@@ -13,6 +13,17 @@ pip install fastai==2.4
 pip install transformers==4.10.2  
 pip install BentoML==0.13.1  
 
+# Use in transformers
+```python
+from transformers import AutoTokenizer, AutoModelWithLMHead
+tokenizer = AutoTokenizer.from_pretrained("ttop324/kogpt2novel")
+model = AutoModelWithLMHead.from_pretrained("ttop324/kogpt2novel")
+
+inputs = tokenizer.encode(text, return_tensors="pt")
+output = model.generate(inputs, repetition_penalty=2.0,)
+output = tokenizer.decode(output[0])
+print(output)
+```
 
 # Run train  
 train.ipynb  
