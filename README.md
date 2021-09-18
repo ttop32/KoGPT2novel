@@ -1,7 +1,7 @@
 # KoGPT2novel
 novel finetuned from skt/kogpt2-base-v2   
 web demo:  
-
+colab: https://colab.research.google.com/drive/1QYRKu3RI5mmIJcMDOa9NRbq_ETzcYJ7z?usp=sharing
 
 # Result   
 ![result](doc/screenshot_1.png)    
