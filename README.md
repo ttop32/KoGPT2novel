@@ -19,7 +19,7 @@ from transformers import AutoTokenizer, AutoModelWithLMHead
 tokenizer = AutoTokenizer.from_pretrained("ttop324/kogpt2novel")
 model = AutoModelWithLMHead.from_pretrained("ttop324/kogpt2novel")
 
-inputs = tokenizer.encode("안녕", return_tensors="pt")
+inputs = tokenizer.encode("위치추적 전자장치(전자발찌) 훼손 전후로 여성 2명을 잇달아 살해한 ", return_tensors="pt")
 output = model.generate(inputs, 
                         repetition_penalty=2.0, 
                         max_length=128,
