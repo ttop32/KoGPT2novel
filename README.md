@@ -37,6 +37,7 @@ deploy.ipynb
 # Acknowledgement and References      
 - [KoGPT2](https://github.com/SKT-AI/KoGPT2)       
 - [huggingface_sharing](https://huggingface.co/transformers/model_sharing.html)        
+- [fast.ai_transformers](https://docs.fast.ai/tutorial.transformers)
 - [BentoML](https://github.com/bentoml/BentoML)       
 - [BentoML_transformers](https://docs.bentoml.org/en/latest/frameworks.html#transformers)       
 - [BentoML_versailles](https://github.com/getlegist/versailles)   
