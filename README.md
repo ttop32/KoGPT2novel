@@ -46,6 +46,6 @@ deploy.ipynb
 - [deployment_docker_kubernetes](https://course19.fast.ai/deployment_docker_kubernetes.html)   
 - [kubernetes_2](https://bcho.tistory.com/1256)   
 - [Kubernetes_Pod](https://honggg0801.tistory.com/44)    
-- [typewriter-effect](https://css-tricks.com/snippets/css/typewriter-effect/)  
+- [typewriter-effect](https://codepen.io/amanmakesart/pen/VwbZbqm)  
     
 
