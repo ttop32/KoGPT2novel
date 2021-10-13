@@ -3,6 +3,9 @@ novel finetuned from skt/kogpt2-base-v2
 colab: [colab](https://colab.research.google.com/drive/1QYRKu3RI5mmIJcMDOa9NRbq_ETzcYJ7z?usp=sharing)      
 web demo:  [okteto](https://web-ttop32.cloud.okteto.net/) [kubernautic](http://kogpt2novel.ddnsfree.com/)     
 
+japan web novel finetuned colab: [kogpt2jnovel_colab](https://colab.research.google.com/drive/1Ee_HXXpPHQoKvpf2Y6LIjs0D6SP7vsWP?usp=sharing)      
+
+
 # Result   
 ![result](doc/screenshot_1.png)    
 
