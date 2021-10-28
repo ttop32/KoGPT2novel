@@ -1,4 +1,5 @@
 # KoGPT2novel
+Generate novel text based on given input text
 novel finetuned from skt/kogpt2-base-v2   
 colab: [colab](https://colab.research.google.com/drive/1QYRKu3RI5mmIJcMDOa9NRbq_ETzcYJ7z?usp=sharing)      
 web demo:  [okteto](https://web-ttop32.cloud.okteto.net/) [kubernautic](http://kogpt2novel.ddnsfree.com/)     
